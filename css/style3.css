@@ -116,35 +116,32 @@ body {
   }
 
 
-  #blog2_wrapper {
+  #blog_wrapper {
     position: relative;
     top: -500px;
     margin: 0 auto;
     width: 1920px;
-    height: 5000px;
+    height: 1500px;
   }
 
   .blog_1 {
     position: absolute;
-    left: 10%;
-    top: 12%;
+    left: 3%;
+    top: 38%;
     
   }
-  .blog_2 {
-    position: absolute;
-    top: 12%;
-    left: 45%;
 
+  .code_image {
+    position: absolute;
+    top: 60%;
+    left: 42%;
   }
 
-  .blog_3 {
+  .text_box {
     position: absolute;
-    top: 24%;
-    left: 10%;
-  }
-
-  .blog_4 {
-    position: absolute;
-    top: 24%;
-    left: 45%;
+    top: 60%;
+    left: 3%;
+    width: 35%;
+    background-color: #2b2d2f;
+    height: 912px;
   }
