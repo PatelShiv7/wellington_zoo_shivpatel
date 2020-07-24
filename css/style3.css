@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
 
-#wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-color: 000000;
-  z-index: 1;
-}
-
 body {
     position: absolute;
     overflow-x : hidden;
@@ -53,7 +45,7 @@ body {
 }
 
 .nav li a:hover {
-    background-color: orange;
+    background-color: #191f45;
 }
 
 * {box-sizing:border-box}
@@ -80,18 +72,15 @@ body {
 
     /* styling search bar */ 
     .search input[type=text]{ 
-      width:100px; 
+      position: absolute;
+      width:150px; 
       height:25px; 
       border-radius:25px; 
       border: none; 
   } 
-        
-  .search{ 
-      float:right; 
-      margin:7px; 
-  } 
-        
+         
   .search button{ 
+    position: absolute;
       background-color: #0074D9; 
       color: #f2f2f2; 
       float: right; 
@@ -104,15 +93,16 @@ body {
 
   .search {
     position: absolute;
-    left: 0;
     top: 0%;
-    left: 85%;
+    left: 65%;
   }
 
   button {
+    position: absolute;
     margin-left: 10px;
     width: 50px;
     height: 25px;
+    left: 155px;
   }
 
 
